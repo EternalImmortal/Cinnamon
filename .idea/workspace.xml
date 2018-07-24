@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e6062b5-4b13-45bc-ade7-1401767e5f1d" name="Default" comment="" />
+    <list default="true" id="7e6062b5-4b13-45bc-ade7-1401767e5f1d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/CinnamonW/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,11 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="WelcomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Controller/WelcomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state>
               <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,7 +43,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CinnamonW/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="984">
               <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
             </state>
           </provider>
@@ -63,6 +66,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -110,13 +116,12 @@
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,6 +196,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,7 +213,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -306,11 +313,13 @@
       <updated>1531993594247</updated>
       <workItem from="1531993596078" duration="921000" />
       <workItem from="1532000497860" duration="21026000" />
+      <workItem from="1532399823854" duration="494000" />
+      <workItem from="1532400842832" duration="415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21947000" />
+    <option name="totallyTimeSpent" value="22856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -318,20 +327,19 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32960325" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4318424" side_tool="true" weight="0.32960325" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32960597" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5681576" weight="0.5584944" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32960325" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960325" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16932908" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17092651" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -340,6 +348,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32960325" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -358,13 +367,75 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Arithmetic4th.java">
+    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Controller/WelcomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="288">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CinnamonW/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/redis/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Controller/WelcomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CinnamonW/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/redis/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Arithmetic4th.java" />
     <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Arithmetic4th/DailyTest/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -372,39 +443,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Arithmetic4th/DailyTest/TestJunit.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Arithmetic4th/Sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-213">
           <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Arithmetic4th/Search/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Arithmetic4th/Base/BaseArrayMethod.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Arithmetic4th/Base/sqrt.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Arithmetic4th/Base/SplitString.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Arithmetic4th/AnnotationOfWRJ/ForClass.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Arithmetic4th/AnnotationOfWRJ/TimeCount.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Arithmetic4th/Sort/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/CinnamonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -438,10 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1902">
           <caret line="226" column="20" selection-start-line="226" selection-start-column="20" selection-end-line="226" selection-end-column="20" />
-          <folding>
-            <element signature="e#5062#5063#0" expanded="true" />
-            <element signature="e#5112#5113#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -449,9 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -459,52 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
-          <folding>
-            <element signature="docComment;class#RedisCacheManager#0" />
-            <element signature="docComment;method#RedisCacheManager#0;class#RedisCacheManager#0" />
-            <element signature="method#RedisCacheManager#0;class#RedisCacheManager#0" />
-            <element signature="docComment;method#RedisCacheManager#1;class#RedisCacheManager#0" />
-            <element signature="method#RedisCacheManager#1;class#RedisCacheManager#0" />
-            <element signature="docComment;method#RedisCacheManager#2;class#RedisCacheManager#0" />
-            <element signature="method#RedisCacheManager#2;class#RedisCacheManager#0" />
-            <element signature="docComment;method#RedisCacheManager#3;class#RedisCacheManager#0" />
-            <element signature="method#RedisCacheManager#3;class#RedisCacheManager#0" />
-            <element signature="docComment;method#RedisCacheManager#4;class#RedisCacheManager#0" />
-            <element signature="method#RedisCacheManager#4;class#RedisCacheManager#0" />
-            <element signature="docComment;method#RedisCacheManager#5;class#RedisCacheManager#0" />
-            <element signature="method#RedisCacheManager#5;class#RedisCacheManager#0" />
-            <element signature="docComment;method#create#0;class#RedisCacheManager#0" />
-            <element signature="method#create#0;class#RedisCacheManager#0" />
-            <element signature="docComment;method#builder#0;class#RedisCacheManager#0" />
-            <element signature="method#builder#0;class#RedisCacheManager#0" />
-            <element signature="docComment;method#builder#1;class#RedisCacheManager#0" />
-            <element signature="method#builder#1;class#RedisCacheManager#0" />
-            <element signature="method#loadCaches#0;class#RedisCacheManager#0" />
-            <element signature="method#getMissingCache#0;class#RedisCacheManager#0" />
-            <element signature="docComment;method#getCacheConfigurations#0;class#RedisCacheManager#0" />
-            <element signature="method#getCacheConfigurations#0;class#RedisCacheManager#0" />
-            <element signature="e#9851#10008#0" />
-            <element signature="docComment;method#createRedisCache#0;class#RedisCacheManager#0" />
-            <element signature="method#createRedisCache#0;class#RedisCacheManager#0" />
-            <element signature="docComment;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="docComment;method#fromConnectionFactory#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="method#fromConnectionFactory#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="docComment;method#fromCacheWriter#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="method#fromCacheWriter#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="docComment;method#cacheDefaults#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="method#cacheDefaults#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="docComment;method#transactionAware#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="method#transactionAware#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="docComment;method#initialCacheNames#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="method#initialCacheNames#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="docComment;method#withInitialCacheConfigurations#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="method#withInitialCacheConfigurations#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="docComment;method#disableCreateOnMissingCache#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="method#disableCreateOnMissingCache#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="docComment;method#build#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-            <element signature="method#build#0;class#RedisCacheManagerBuilder#0;class#RedisCacheManager#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,9 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -522,119 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
           <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#40491#0" expanded="true" />
-            <element signature="docComment;class#RedisTemplate#0" />
-            <element signature="e#5468#6600#0" />
-            <element signature="e#6750#6759#0" />
-            <element signature="e#6873#7211#0" />
-            <element signature="e#6873#7351#0" />
-            <element signature="e#7354#7894#0" />
-            <element signature="e#7354#9275#0" />
-            <element signature="e#9278#9929#0" />
-            <element signature="e#10226#11640#0" />
-            <element signature="e#10952#11566#0" />
-            <element signature="e#11931#12923#0" />
-            <element signature="e#12316#12918#0" />
-            <element signature="e#12926#13256#0" />
-            <element signature="e#13259#13816#0" />
-            <element signature="e#13819#14495#0" />
-            <element signature="e#14595#14909#0" />
-            <element signature="e#14912#15091#0" />
-            <element signature="e#14912#15221#0" />
-            <element signature="e#15224#15360#0" />
-            <element signature="e#15363#15569#0" />
-            <element signature="e#15641#15867#0" />
-            <element signature="e#15978#16175#0" />
-            <element signature="e#16261#16482#0" />
-            <element signature="e#16261#16618#0" />
-            <element signature="e#16621#16731#0" />
-            <element signature="e#16828#17135#0" />
-            <element signature="e#17247#17431#0" />
-            <element signature="e#17535#17655#0" />
-            <element signature="e#17744#17932#0" />
-            <element signature="e#18040#18164#0" />
-            <element signature="e#18257#18346#0" />
-            <element signature="e#18443#18632#0" />
-            <element signature="e#18758#18851#0" />
-            <element signature="e#18952#19136#0" />
-            <element signature="e#18952#19267#0" />
-            <element signature="e#19270#19357#0" />
-            <element signature="e#19446#19738#0" />
-            <element signature="e#19865#19961#0" />
-            <element signature="e#20074#20315#0" />
-            <element signature="e#20404#20611#0" />
-            <element signature="e#20614#20806#0" />
-            <element signature="e#20809#20967#0" />
-            <element signature="e#20970#21016#0" />
-            <element signature="e#20970#22189#0" />
-            <element signature="e#22192#22688#0" />
-            <element signature="e#22691#23179#0" />
-            <element signature="e#23182#23184#0" />
-            <element signature="e#23211#23749#0" />
-            <element signature="e#23211#24038#0" />
-            <element signature="e#24041#24365#0" />
-            <element signature="e#24368#24513#0" />
-            <element signature="e#24516#24827#0" />
-            <element signature="e#24830#25160#0" />
-            <element signature="e#25163#25418#0" />
-            <element signature="e#25421#26033#0" />
-            <element signature="e#25762#26022#0" />
-            <element signature="e#26036#26469#0" />
-            <element signature="e#26278#26458#0" />
-            <element signature="e#26472#26934#0" />
-            <element signature="e#26841#26923#0" />
-            <element signature="e#26937#26939#0" />
-            <element signature="e#26967#27221#0" />
-            <element signature="e#27224#27718#0" />
-            <element signature="e#27487#27707#0" />
-            <element signature="e#27832#27841#0" />
-            <element signature="e#27721#28132#0" />
-            <element signature="e#28135#28392#0" />
-            <element signature="e#28395#28676#0" />
-            <element signature="e#28679#28911#0" />
-            <element signature="e#28914#29273#0" />
-            <element signature="e#29183#29262#0" />
-            <element signature="e#29276#29636#0" />
-            <element signature="e#29639#29888#0" />
-            <element signature="e#29891#30286#0" />
-            <element signature="e#29891#30424#0" />
-            <element signature="e#30427#30959#0" />
-            <element signature="e#30427#31253#0" />
-            <element signature="e#31157#31242#0" />
-            <element signature="e#31256#31464#0" />
-            <element signature="e#31395#31453#0" />
-            <element signature="e#31467#31682#0" />
-            <element signature="e#31611#31671#0" />
-            <element signature="e#31685#31953#0" />
-            <element signature="e#31878#31942#0" />
-            <element signature="e#31956#32247#0" />
-            <element signature="e#32171#32236#0" />
-            <element signature="e#32250#32465#0" />
-            <element signature="e#32394#32454#0" />
-            <element signature="e#32635#32644#0" />
-            <element signature="e#32764#33345#0" />
-            <element signature="e#33542#33551#0" />
-            <element signature="e#33348#33713#0" />
-            <element signature="e#33716#34720#0" />
-            <element signature="e#34723#35196#0" />
-            <element signature="e#35199#35498#0" />
-            <element signature="e#35420#35493#0" />
-            <element signature="e#35722#36000#0" />
-            <element signature="e#35924#35995#0" />
-            <element signature="e#36003#36249#0" />
-            <element signature="e#36179#36244#0" />
-            <element signature="e#36468#36714#0" />
-            <element signature="e#36957#37212#0" />
-            <element signature="e#37433#37711#0" />
-            <element signature="e#37714#37967#0" />
-            <element signature="e#38454#38700#0" />
-            <element signature="e#38951#39211#0" />
-            <element signature="e#39458#39711#0" />
-            <element signature="e#39714#39896#0" />
-            <element signature="e#39714#40036#0" />
-            <element signature="e#40039#40381#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,14 +522,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CinnamonW/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="984">
           <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/Controller/WelcomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state>
           <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -668,6 +543,9 @@
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CinnamonW/src/main/java/cn/weijoseph/cinnamon/redis/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
