@@ -1,5 +1,6 @@
 package cn.weijoseph.cinnamon.Controller;
 
+import cn.weijoseph.cinnamon.HearthStone.service.HearthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
@@ -15,6 +16,8 @@ public class WelcomeController {
 
     @Autowired
     RedisTemplate redisTemplate;
+    @Autowired
+    HearthService hearthService;
 
     @RequestMapping("/hello")
     @ResponseBody
@@ -27,5 +30,12 @@ public class WelcomeController {
             System.out.println(e.getMessage());
         }
         return whoIsSWS;
+    }
+
+    @RequestMapping("/insertHero")
+    @ResponseBody
+    public String InsertHero() {
+        hearthService.insert(2, "2234", "DK");
+        return "success or failure";
     }
 }

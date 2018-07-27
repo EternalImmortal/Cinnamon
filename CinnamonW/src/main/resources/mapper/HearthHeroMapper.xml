@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.weijoseph.cinnamon.HearthStone.mapper.HearthHeroMapper">
+    <insert id="insertHero" parameterType="cn.weijoseph.cinnamon.HearthStone.domain.HearthHero">
+        INSERT INTO HearthHeroes values (#{id}, #{name}, #{profession})
+    </insert>
+</mapper>
