@@ -1,10 +1,13 @@
 package cn.weijoseph.cinnamon.HearthStone.domain;
 
+import java.io.Serializable;
+
 /**
  * @author weirenjie
  * @date 2018/7/24
  */
-public class HearthHero {
+public class HearthHero implements Serializable {
+    private static final long serialVersionUID = 8354812222289086140L;
     private Integer id;
     private String name;
     private String profession;
