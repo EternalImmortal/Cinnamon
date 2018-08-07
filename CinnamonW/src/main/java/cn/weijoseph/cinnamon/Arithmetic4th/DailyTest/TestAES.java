@@ -1,5 +1,6 @@
 package cn.weijoseph.cinnamon.Arithmetic4th.DailyTest;
 
+import cn.weijoseph.cinnamon.Arithmetic4th.AnnotationOfWRJ.TimeCount;
 import cn.weijoseph.cinnamon.HearthStone.domain.HearthHero;
 import com.netease.edu.util.cipher.AESCipherUtils;
 import org.bouncycastle.util.encoders.Base64;
@@ -10,7 +11,7 @@ import com.alibaba.fastjson.JSON;
  * @author weirenjie
  * @date 2018/8/6
  */
-public class TestJsonOfSpring {
+public class TestAES {
     public static final String DEFAULT_CHARSET = "utf-8";
     @Test
     public void stringAndJsonDeal() {
@@ -58,4 +59,46 @@ public class TestJsonOfSpring {
             System.out.println(e.getMessage());
         }
     }
+
+    /**
+     * AES_ECB_128加密
+     * @param plainText
+     * @param key
+     * @return
+     */
+    // @TimeCount(name = "AES加密")
+    public static String encryptAES_ECB_128(String plainText, String key) {
+        try {
+            byte[] plainData = plainText.getBytes(DEFAULT_CHARSET);
+            byte[] keyData = key.getBytes(DEFAULT_CHARSET);
+            byte[] encryptData = AESCipherUtils.encrypt(plainData, keyData);
+            String encryptText = new String(Base64.encode(encryptData), DEFAULT_CHARSET);
+            return encryptText;
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            return "加密过程中出现错误！";
+        }
+    }
+
+    /**
+     * AES_ECB_128解密
+     * @param encryptText
+     * @param key
+     * @return
+     */
+    @TimeCount(name = "AES解密")
+    public static String decryptAES_ECP_128(String encryptText, String key) {
+        try {
+            byte[] encryptData = Base64.decode(encryptText.getBytes(DEFAULT_CHARSET));
+            byte[] keyData = key.getBytes(DEFAULT_CHARSET);
+            byte[] decryptData = AESCipherUtils.decrypt(encryptData, keyData);
+            String decryptTest = new String(decryptData, DEFAULT_CHARSET);
+            return decryptTest;
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            return "解密过程中出现错误！";
+        }
+    }
+
+
 }
